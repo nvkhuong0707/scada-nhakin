@@ -1,0 +1,239 @@
+/*Màn hình chính*/
+#screen_auto {
+    position: absolute; 
+    left: 215px; top: 11px; 
+    width: 800px; height: 686px;
+    background-color: rgb(14, 238, 219); 
+}
+
+/*FAN*/
+#SCR_AUTO_FAN {
+    position: absolute; 
+    left: 110px; top: 150px; 
+    width: 80px; height: 80px;
+}
+
+/*LAMP*/
+#SCR_AUTO_LAMP {
+    position: absolute; 
+    left: 800px; top: 200px; 
+    width: 90px; height: 90px;
+
+}
+
+
+/*PUMP_1*/
+#SCR_AUTO_PUMP_1 {
+    position: absolute; 
+    left: 878px; top: 440px; 
+    width: 80px; height: 80px;
+}
+
+/*PUMP_2*/
+#SCR_AUTO_PUMP_2 {
+    position: absolute; 
+    left: 971px; top: 240px; 
+    width: 70px; height: 70px;
+
+}
+
+/*MOTOR_MIX*/
+#SCR_AUTO_MOTOR_MIX {
+    position: absolute; 
+    left: 430px; top: 600px; 
+    width: 70px; height: 70px;
+
+}
+
+/*SENSOR*/
+#SCR_AUTO_SENSOR {
+    position: absolute; 
+    left: 130px; top: 370px; 
+    width: 85px; height: 30px;
+}
+
+/*SYSTEM*/
+#SCR_AUTO_SYSTEM {
+    position: absolute; 
+    left: 1170px; top: 510px; 
+    width: 50px; height: 50px;
+}
+
+
+
+
+
+/*NÚT NHẤN START_SYSTEM*/
+#bttAUTO_START_SYSTEM {
+    border: none; 
+    background-color: rgb(51, 10, 235); 
+    color: rgb(255, 255, 255);   
+    text-align: center; 
+    display: inline-block;
+    font-size: 13px; 
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute; 
+    width: 55px; height: 30px; 
+    left: 1140px; top: 460px;
+}
+
+/*NÚT NHẤN STOP_SYSTEM*/
+#bttAUTO_STOP_SYSTEM {
+    border: none; 
+    background-color: rgb(255, 0, 0); 
+    color: rgb(255, 255, 255);   
+    text-align: center; 
+    display: inline-block;
+    font-size: 13px; 
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute; 
+    width: 55px; height: 30px; 
+    left: 1200px; top: 460px;
+}
+
+/*GIÁ TRỊ NHIỆT ĐỘ*/
+#TEMPERATURE_SCR_AUTO {
+    position: absolute; 
+    text-align: center;
+    display: inline-block; 
+    left: 1220px; top: 140px; 
+    width: 40px; height: 18px;
+    background-color: hsl(110, 100%, 50%); 
+}
+
+/*GIÁ TRỊ ĐỘ ẨM*/
+#AIR_HUMIDITY_SCR_AUTO {
+    position: absolute; 
+    text-align: center;
+    display: inline-block; 
+    left: 1220px; top: 165px; 
+    width: 40px; height: 18px;
+    background-color: hsl(110, 100%, 50%); 
+}
+
+/*TIME_MOTOR_MIX*/
+#TIME_MOTOR_MIX {
+    position: absolute; 
+    text-align: center;
+    display: inline-block; 
+    left: 390px; top: 565px; 
+    width: 50px; height: 18px;
+    background-color: hsl(105, 100%, 2%); 
+    color: rgb(255, 255, 255);  
+}
+
+
+/*TIME_PUMP_1*/
+#TIME_PUMP_1 {
+    position: absolute; 
+    text-align: center;
+    display: inline-block; 
+    left: 1000px; top: 475px; 
+    width: 50px; height: 18px;
+    background-color: hsl(105, 100%, 2%); 
+    color: rgb(255, 255, 255);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*GHI DỮ LIỆU TEMPERATURE MIN */
+#SET_MIN_TEMPERATURE {
+    position: absolute; 
+    text-align: center;
+    display: inline-block; 
+    left: 1220px; top: 242px; 
+    width: 40px; height: 18px;
+    background-color: hsl(110, 100%, 50%); 
+}
+
+/*GHI DỮ LIỆU TEMPERATURE MAX */
+#SET_MAX_TEMPERATURE {
+    position: absolute; 
+    text-align: center;
+    display: inline-block; 
+    left: 1220px; top: 270px; 
+    width: 40px; height: 18px;
+    background-color: hsl(110, 100%, 50%); 
+}
+
+/*GHI DỮ LIỆU AIR_HUMIDITY MAX */
+#SET_MAX_AIR_HUMIDITY {
+    position: absolute; 
+    text-align: center;
+    display: inline-block; 
+    left: 1220px; top: 297px; 
+    width: 40px; height: 18px;
+    background-color: hsl(110, 100%, 50%); 
+}
+
+/*GHI DỮ LIỆU AIR_HUMIDITY MIN */
+#SET_MIN_AIR_HUMIDITY {
+    position: absolute; 
+    text-align: center;
+    display: inline-block; 
+    left: 1220px; top: 325px; 
+    width: 40px; height: 18px;
+    background-color: hsl(110, 100%, 50%); 
+}
+
+/*GHI DỮ LIỆU TIME_MOTOR_MIX  */
+#SET_TIME_MOTOR_MIX {
+    position: absolute; 
+    text-align: center;
+    display: inline-block; 
+    left: 1220px; top: 353px; 
+    width: 40px; height: 18px;
+    background-color: hsl(110, 100%, 50%); 
+}
+
+/*GHI DỮ LIỆU TIME_PUMP_1  */
+#SET_TIME_PUMP_1 {
+    position: absolute; 
+    text-align: center;
+    display: inline-block; 
+    left: 1220px; top: 380px; 
+    width: 40px; height: 18px;
+    background-color: hsl(110, 100%, 50%); 
+}
+
+/*NÚT NHẤN LƯU*/
+#btt_ScreenAuto_Save {
+    border: none; 
+    background-color: rgb(235, 145, 10); 
+    color: rgb(255, 255, 255);   
+    text-align: center; 
+    display: inline-block;
+    font-size: 10px; 
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute; 
+    width: 30px; height: 20px; 
+    left: 1230px; top: 400px;
+}
+
+/*NÚT NHẤN SỬA*/
+#btt_ScreenAuto_Edit {
+    border: none; 
+    background-color: rgb(51, 10, 235); 
+    color: rgb(255, 255, 255);   
+    text-align: center; 
+    display: inline-block;
+    font-size: 10px; 
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute; 
+    width: 30px; height: 20px; 
+    left: 1230px; top: 400;
+}
